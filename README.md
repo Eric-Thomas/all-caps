@@ -4,12 +4,34 @@ Script used to print songs that are all caps from your spotify liked songs
 
 ## How to run locally
 
-install requirements
+#### Install requirements
 `pip install -r requirements.txt`
 
-Get temporary oauth token. Spotify has a node app set up to get an oauth token for you https://github.com/spotify/web-api-auth-examples
-[How to get an oauth token](https://developer.spotify.com/documentation/general/guides/authorization/code-flow/)
-export ACCESS_TOKEN="{YOUR_ACCESS_TOKEN}"
+#### Create spotify app
+Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and sign in
 
-python all_caps.py
+Click `CREATE AN APP`
+![Create an App](assets/create-an-app.png)
+
+
+Enter app details
+![App inputs](assets/app-inputs.png)
+
+Click `EDIT SETTINGS`
+![Edit Settings](assets/edit-settings.png)
+
+Enter `http://localhost:8082/` in the Redirect URIs Section and hit Add and Save
+![Redirect URIs](assets/redirect-uris.png)
+
+
+Run this command
+`./run.sh`
+
+After it prompts for client ID enter it from your application
+![Client ID](assets/client-id.png)
+
+After it prompots for client secret click `SHOW CLIENT SECRET` and input it
+![Client Secret](assets/client-secret.png)
+
+Next the program will navigate to a browser. You just navigate back to your terminal and it will output your songs in all caps. Enjoy :)
 
