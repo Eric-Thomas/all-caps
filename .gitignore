@@ -2,3 +2,4 @@ env
 venv
 
 saved_songs.json
+token.json
