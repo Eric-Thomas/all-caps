@@ -34,4 +34,4 @@ Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) an
 ![Client Secret](assets/client-secret.png)
 
 Next the program will navigate to a browser. You just navigate back to your terminal and it will output your songs in all caps. Enjoy :)
-
+![Run](assets/run.png)
