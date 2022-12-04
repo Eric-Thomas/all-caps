@@ -20,7 +20,7 @@ Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) an
 #### Click `EDIT SETTINGS`
 ![Edit Settings](assets/edit-settings.png)
 
-Enter `http://localhost:8082/` in the Redirect URIs Section and hit Add and Save
+Enter `http://localhost:8082/` in the Redirect URIs Section and hit Add then Save
 ![Redirect URIs](assets/redirect-uris.png)
 
 
